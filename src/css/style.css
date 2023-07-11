@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --background: #1E1E1E;
+    --text: #F5F3F4;
+    --hidentext: #ACACAC;
+    --header1: #E14242;
+    --header2: #1BE6B0;
+    --link1: #FFBA08;
+    --link2: #68B5FC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+h1 {
+  color: var(--header1);
+}
+/*
+.email-button {
+  background-color: #666666;
+}*/
