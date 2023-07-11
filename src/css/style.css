@@ -27,6 +27,29 @@ h1 {
   color: var(--header1);
 }
 
+/* HEADER  */
+
+.lang-select {
+  position: absolute;
+  top: 0px;
+}
+
+header {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scroll-hint {
+  width: 30px;
+  position: absolute;
+  top: 90%;
+}
+
 .conteiner {
   width: 100%;
   max-width: 1200px;
