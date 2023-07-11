@@ -26,7 +26,10 @@ body {
 h1 {
   color: var(--header1);
 }
-/*
-.email-button {
-  background-color: #666666;
-}*/
+
+.conteiner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
