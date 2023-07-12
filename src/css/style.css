@@ -8,6 +8,7 @@
     --header2: #1BE6B0;
     --link1: #FFBA08;
     --link2: #68B5FC;
+    --purple: #B56AE5;
 }
 
 * {
@@ -25,6 +26,10 @@ body {
 
 h1 {
   color: var(--header1);
+}
+
+h2 {
+  color: var(--header2);
 }
 
 /* HEADER  */
@@ -54,5 +59,13 @@ header {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
+}
+
+.hiden-text {
+  color: var(--hidentext);
+}
+
+.skills-got {
+  color: var(--purple);
 }
