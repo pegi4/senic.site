@@ -69,3 +69,14 @@ header {
 .skills-got {
   color: var(--purple);
 }
+
+.border-style {
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+}
+
+.border-style a {
+  color: var(--link1) !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
