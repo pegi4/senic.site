@@ -80,3 +80,9 @@ header {
   text-decoration: underline !important;
   cursor: pointer;
 }
+
+.link-2 {
+  color: var(--link2) !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
