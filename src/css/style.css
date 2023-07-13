@@ -97,3 +97,18 @@ header {
   text-decoration: underline !important;
   cursor: pointer;
 }
+
+.cv a {
+  color: var(--link2) !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.cv-arrow {
+  width: 20px;
+}
+
+footer {
+  background-color: #0B090A;
+  text-align: center;
+}
