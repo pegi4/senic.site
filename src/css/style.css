@@ -86,3 +86,14 @@ header {
   text-decoration: underline !important;
   cursor: pointer;
 }
+
+.f-me a {
+  color: var(--link1) !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.other-c a {
+  text-decoration: underline !important;
+  cursor: pointer;
+}

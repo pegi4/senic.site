@@ -564,12 +564,80 @@ video {
   position: relative;
 }
 
+.inset-0 {
+  inset: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
 
 .top-0 {
   top: 0px;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-12 {
+  top: 3rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.right-40 {
+  right: 10rem;
+}
+
+.-right-36 {
+  right: -9rem;
+}
+
+.right-36 {
+  right: 9rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
+.top-28 {
+  top: 7rem;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mx-auto {
@@ -645,12 +713,48 @@ video {
   height: 100%;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
 .w-32 {
   width: 8rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-3\/12 {
+  width: 25%;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .flex-shrink-0 {
@@ -671,6 +775,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -697,6 +805,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -708,6 +820,11 @@ video {
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
@@ -890,6 +1007,10 @@ video {
 /* npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch */
 
 @media (min-width: 768px) {
+  .md\:top-28 {
+    top: 7rem;
+  }
+
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -907,8 +1028,16 @@ video {
     margin-top: 0px;
   }
 
+  .md\:h-56 {
+    height: 14rem;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-56 {
+    width: 14rem;
   }
 
   .md\:grid-cols-2 {
