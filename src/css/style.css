@@ -32,7 +32,9 @@ h2 {
   color: var(--header2);
 }
 
-/* HEADER  */
+.social a:hover {
+  color: var(--hidentext);
+}
 
 .lang-select {
   position: absolute;
@@ -81,10 +83,17 @@ header {
   cursor: pointer;
 }
 
+.border-style a:hover {
+  color: #ba8704 !important;
+}
+
 .link-2 {
   color: var(--link2) !important;
   text-decoration: underline !important;
   cursor: pointer;
+}
+.link-2:hover {
+  color: #5691c7 !important;
 }
 
 .f-me a {
@@ -93,15 +102,30 @@ header {
   cursor: pointer;
 }
 
+.f-me a:hover {
+  color: #ba8704 !important;
+}
+
 .other-c a {
   text-decoration: underline !important;
   cursor: pointer;
+}
+
+.soc-li a{
+  color: var(--link2) !important;
+}
+.soc-li a:hover {
+  color: #5691c7 !important;
 }
 
 .cv a {
   color: var(--link2) !important;
   text-decoration: underline !important;
   cursor: pointer;
+}
+
+.cv a:hover {
+  color: #5691c7  !important;
 }
 
 .cv-arrow {
