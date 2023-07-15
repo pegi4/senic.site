@@ -40,6 +40,9 @@ h2 {
   position: absolute;
   top: 0px;
 }
+.lang-select button:hover {
+  color: var(--hidentext);
+}
 
 header {
   display: flex;

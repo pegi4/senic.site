@@ -1,10 +1,10 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vito Senič</title>
 
-    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/output.css">
 
@@ -13,10 +13,10 @@
     
     <header>
         <div class="lang-select pt-4">
-          <div class=" px-2 py-1">
-            <button class="">SLO</button>
-            <button class="">|</button>
-            <button class="">ENG</button>
+          <div class="px-2 py-1">
+            <button onclick="switchLang('sl')">SLO</button>
+            <span>|</span>
+            <button onclick="switchLang('en')">ENG</button>
           </div>
         </div>
         <div class="flex flex-col items-center justify-center">
@@ -38,17 +38,7 @@
     </header>
     <section class="flex justify-center items-center pt-16 pb-14 md:pt-56 md:pb-28">
       <div class="conteiner flex flex-col md:flex-row justify-center px-8 xl:px-0">
-        <div class="pr-0 md:pr-8 text-lg font-medium break-words">
-          <p class="mb-4">
-            I am deeply interested in how the <span style="color: #1BE6B0;">world</span> works and why every thing has it's <span style="color: #FFBA08;">purpose</span> in life. So I created this website with a certain intention...
-          </p>
-          <p class="mb-4">
-            I am a <span style="color: #E14242;">dreamer</span> who strives to make <span style="color: #E14242;">dreams</span> come true. I realize that it's necessary to stay <span style="color: #E14242;">realistic</span>, confront, and eliminate <span style="color: #FFBA08;">all the errors</span> that hinder me from reaching my goals, expressing <span style="color: #68B5FC;">open-mindedness and self-criticism</span> in the process. Through this, I've learned to <span style="color: #1BE6B0;">accept</span> and <span style="color: #1BE6B0;">understand</span> myself and others, gaining a sense of <span style="color: #FFBA08;">purpose in life</span> (at least the feeling of purpose).
-          </p>
-          <p class="mb-4">
-            I believe in the following formula, while also making an effort to <span style="color: #1BE6B0;">understand</span> the functioning of <span style="color: #68B5FC;">the left and right sides of the brain</span>.
-          </p>
-          <p><span style="color: #E14242;">Pain</span> + <span style="color: #1BE6B0;">Reflection</span> = <span style="color: #68B5FC;">Progress</span>.</p>
+        <div id="section-content" class="pr-0 md:pr-8 text-lg font-medium break-words">
         </div>
         <div class="flex-shrink-0 mx-auto mt-20 lg:mx-0 lg:mt-0">
           <img src="./src/images/jazCircle.webp" alt="Profile Image">
