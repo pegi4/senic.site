@@ -33,6 +33,22 @@ switchLang('sl');
 
 
 
+/* FIRST SECTION ARROW CLICK */
+
+// Smooth scrolling to the target section
+function scrollToFirstSection() {
+  const firstSection = document.getElementById("section1");
+  window.scrollTo({
+    top: firstSection.offsetTop,
+    behavior: "smooth"
+  });
+}
+
+// Add event listener to the scroll hint
+document.getElementById("scroll-hint").addEventListener("click", scrollToFirstSection);
+
+
+
 /* NAVIGATION */
 
   // Smooth scrolling to the target section
@@ -44,6 +60,8 @@ switchLang('sl');
       behavior: "smooth"
     });
   }
+
+  document.getElementById("scroll-hint").addEventListener("click", scrollToSection);
 
   // Update the active dot based on the current scroll position
   function updateActiveDot() {

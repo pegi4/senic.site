@@ -84,7 +84,8 @@ header {
 .scroll-hint {
   width: 30px;
   position: absolute;
-  top: 90%;
+  cursor: pointer;
+  top: 80%;
 }
 
 .conteiner {
