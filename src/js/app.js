@@ -15,3 +15,40 @@ function switchLang(lang) {
   }
   
   switchLang('sl');
+
+
+/* NAVIGATION */
+
+  // Smooth scrolling to the target section
+  function scrollToSection(event) {
+    event.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    window.scrollTo({
+      top: target.offsetTop,
+      behavior: "smooth"
+    });
+  }
+
+  // Update the active dot based on the current scroll position
+  function updateActiveDot() {
+    const sections = document.querySelectorAll("section");
+    const dots = document.querySelectorAll(".dot");
+
+    sections.forEach((section, index) => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      if (
+        window.scrollY >= sectionTop &&
+        window.scrollY < sectionTop + sectionHeight
+      ) {
+        dots.forEach(dot => dot.classList.remove("active"));
+        dots[index].classList.add("active");
+      }
+    });
+  }
+
+  // Add event listeners to dots and scroll event
+  document.querySelectorAll(".dot").forEach(dot =>
+    dot.addEventListener("click", scrollToSection)
+  );
+  window.addEventListener("scroll", updateActiveDot);
