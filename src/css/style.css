@@ -36,12 +36,21 @@ h2 {
   color: var(--hidentext);
 }
 
+/* LANGUAGE SELECTOR */
+
 .lang-select {
-  position: absolute;
-  top: 0px;
-}
-.lang-select button:hover {
+  position: fixed;
+  right: 10px;
+  bottom: 10px; 
+  z-index: 999;
+  background-color: var(--text);
   color: var(--hidentext);
+  border-radius: 50%;
+  transition: 0.25s ease-in-out;
+}
+.lang-select:hover {
+  background-color: var(--hidentext);
+  color: var(--text);
 }
 
 header {

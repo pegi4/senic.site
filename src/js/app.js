@@ -1,20 +1,36 @@
+/* LANGUAGE SWITCH */
+
 function switchLang(lang) {
-    fetch(`./src/translation/translation-${lang}.json`)
-      .then((response) => response.json())
-      .then((translations) => {
-        for (let key in translations) {
-          if (translations.hasOwnProperty(key)) {
-            let element = document.getElementById(key);
-            if (element) {
-              element.innerHTML = translations[key];
-            }
+  fetch(`./src/translation/translation-${lang}.json`)
+    .then((response) => response.json())
+    .then((translations) => {
+      for (let key in translations) {
+        if (translations.hasOwnProperty(key)) {
+          let element = document.getElementById(key);
+          if (element) {
+            element.innerHTML = translations[key];
           }
         }
-      })
-      .catch((error) => console.error('Error loading translations:', error));
-  }
-  
-  switchLang('sl');
+      }
+
+      // Update language buttons visibility
+      const langSelect = document.querySelector('.lang-select');
+      const slButton = langSelect.querySelector('button[data-lang="sl"]');
+      const enButton = langSelect.querySelector('button[data-lang="en"]');
+
+      if (lang === 'sl') {
+        slButton.style.display = 'none';
+        enButton.style.display = 'inline-block';
+      } else if (lang === 'en') {
+        slButton.style.display = 'inline-block';
+        enButton.style.display = 'none';
+      }
+    })
+    .catch((error) => console.error('Error loading translations:', error));
+}
+
+switchLang('sl');
+
 
 
 /* NAVIGATION */
