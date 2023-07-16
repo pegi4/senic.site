@@ -36,6 +36,24 @@ h2 {
   color: var(--hidentext);
 }
 
+/* TYPEWRITE ANI. */
+
+.social,
+.email-b,
+.scroll-hint,
+.lang-select,
+.dot-navigation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.16s;
+}
+
 /* LANGUAGE SELECTOR */
 
 .lang-select {

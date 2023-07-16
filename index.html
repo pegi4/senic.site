@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <nav class="dot-navigation">
+    <nav id="navigation" class="dot-navigation">
         <a href="#section1" class="dot"></a>
         <a href="#section2" class="dot"></a>
         <a href="#section3" class="dot"></a>
@@ -20,29 +20,29 @@
         <a href="#section6" class="dot"></a>
     </nav>
 
-    <div class="lang-select p-2 font-semibold">
+    <div id="lang-set" class="lang-select p-2 font-semibold">
           <button data-lang="sl" onclick="switchLang('sl')">SL</button>
           <button data-lang="en" onclick="switchLang('en')">EN</button>
     </div>      
 
     <header>
         <div class="flex flex-col items-center justify-center">
-          <p class="text-lg font-medium italic">Hey, I'm</p>
-          <h1 class="text-4xl font-bold">Vito Senic</h1>
-          <div class="social flex mt-4">
+          <p id="typewriter-text" class="text-lg font-medium italic"></p>
+          <h1 id="heading" class="text-4xl font-bold"></h1>
+          <div id="social-links" class="social flex mt-4">
             <a href="#" class="mr-4 font-medium underline">Github</a>
             <a href="#" class="font-medium underline">LinkedIn</a>
           </div>
-          <div class="mt-4 email-b">
+          <div id="email-button" class="mt-4 email-b">
             <a href="mailto:vito.senic@gmail.com" class="inline-block px-4 py-2 bg-gray-500 hover:bg-white  text-white hover:text-gray-500 font-medium rounded ease-in-out duration-300">
               Email Me
             </a>
           </div>          
         </div>
-        <div class="scroll-hint cursor-pointer">
+        <div id="scroll-hint" class="scroll-hint cursor-pointer">
           <svg class="animate-bounce" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m5.214 14.522s4.505 4.502 6.259 6.255c.146.147.338.22.53.22s.384-.073.53-.22c1.754-1.752 6.249-6.244 6.249-6.244.144-.144.216-.334.217-.523 0-.193-.074-.386-.221-.534-.293-.293-.766-.294-1.057-.004l-4.968 4.968v-14.692c0-.414-.336-.75-.75-.75s-.75.336-.75.75v14.692l-4.979-4.978c-.289-.289-.761-.287-1.054.006-.148.148-.222.341-.221.534 0 .189.071.377.215.52z" fill="white" fill-rule="nonzero"/></svg>
         </div>
-    </header>
+    </header>      
     <section id="section1" class="flex justify-center items-center pt-16 pb-14 md:pt-56 md:pb-28">
       <div class="conteiner flex flex-col md:flex-row justify-center px-8 xl:px-0">
         <div id="section-content" class="pr-0 md:pr-8 text-lg font-medium break-words">

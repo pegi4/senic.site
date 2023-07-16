@@ -68,3 +68,56 @@ switchLang('sl');
     dot.addEventListener("click", scrollToSection)
   );
   window.addEventListener("scroll", updateActiveDot);
+
+
+/* ANIMATION */
+
+document.addEventListener('DOMContentLoaded', () => {
+  const typewriterText = document.getElementById('typewriter-text');
+  const heading = document.getElementById('heading');
+  const socialLinks = document.getElementById('social-links');
+  const emailButton = document.getElementById('email-button');
+  const scrollHint = document.getElementById('scroll-hint');
+  const navigation = document.getElementById('navigation');
+  const langSet = document.getElementById('lang-set');
+
+  const typewriterTextContent = "Hey, I'm";
+  const headingContent = "Vito Senic";
+  const socialLinksDelay = 200;
+  const emailButtonDelay = 500;
+  const scrollHintDelay = 700;
+
+  function typeWriterEffect(element, text) {
+    return new Promise((resolve) => {
+      let currentIndex = 0;
+
+      const intervalId = setInterval(() => {
+        element.textContent += text[currentIndex];
+        currentIndex++;
+
+        if (currentIndex === text.length) {
+          clearInterval(intervalId);
+          setTimeout(resolve);
+        }
+      }, 50);
+    });
+  }
+
+  async function animateHeader() {
+    await typeWriterEffect(typewriterText, typewriterTextContent);
+    await typeWriterEffect(heading, headingContent);
+    setTimeout(() => {
+      socialLinks.classList.add('show');
+      navigation.classList.add('show');
+      langSet.classList.add('show');
+      setTimeout(() => {
+        emailButton.classList.add('show');
+        setTimeout(() => {
+          scrollHint.classList.add('show');
+        }, scrollHintDelay - emailButtonDelay);
+      }, emailButtonDelay - socialLinksDelay);
+    }, socialLinksDelay);
+  }
+
+  animateHeader();
+});
