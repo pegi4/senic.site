@@ -191,6 +191,11 @@ footer {
   transition: 0.05s ease-in-out;
 }
 
+.dot:hover {
+  opacity: 1;
+  background-color: var(--header2);
+}
+
 .dot.active {
   opacity: 1;
   background-color: var(--header1);
