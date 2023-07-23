@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const langSet = document.getElementById('lang-set');
 
   const typewriterTextContent = "Hey, I'm";
-  const headingContent = "Vito Senic";
+  const headingContent = "Vito Senič";
   const socialLinksDelay = 200;
   const emailButtonDelay = 500;
   const scrollHintDelay = 700;
