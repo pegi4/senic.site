@@ -208,3 +208,8 @@ footer {
 .skills-lvl {
   color: var(--hidentext);
 }
+
+.certificates a {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
