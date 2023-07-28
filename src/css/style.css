@@ -204,3 +204,7 @@ footer {
   opacity: 1;
   background-color: var(--header1);
 }
+
+.skills-lvl {
+  color: var(--hidentext);
+}
