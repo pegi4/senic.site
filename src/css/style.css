@@ -213,3 +213,8 @@ footer {
   text-decoration: underline !important;
   cursor: pointer;
 }
+
+.skills-all a { 
+  text-decoration: underline !important;
+  cursor: pointer;
+}
