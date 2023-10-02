@@ -44,11 +44,11 @@
     "graphic-design-skills": "Creativity, communication",
     "graphic-design-works-link": "Works",
     "education-skills-title": "Education & Skills",
-    "software-engineering-programme": "I have just finished computer science programme at <a class=\"link-2\" href=\"https://www.sers.si/\" target=\"_blank\">SERŠ</a>.",
+    "software-engineering-programme": "I successfully completed the computer science program at <a class=\"link-2\" href=\"https://www.sers.si/\" target=\"_blank\">SERŠ</a>.",
     "education-duration": "2019 - 2023",
     "computer-engineering-study": "I will continue study of computer engineering at <a class='link-2' href='https://feri.um.si/' target=\"_blank\">FERI</a>.",
     "other-title": "Other",
-    "other-age": "Age: 18",
+    "other-age": "Age: 19",
     "music-link": "Music:", 
     "other-nickname": "Nickname: Senic",
     "other-location": "Location: Pohorje",
@@ -63,6 +63,5 @@
     "jostsenic-link": "jostsenic.si",
     "darkosever-link": "darkosever.si",
     "cv-description": "You can look at my more linear <span style=\"color: #FFBA08;\">Curriculum vitae</span>",
-    "cv-link": "CV",
-    "footer-text": "Updated: July 2023 | on Pohorje"
+    "cv-link": "CV"
 }
