@@ -11,6 +11,13 @@
     --purple: #B56AE5;
 }
 
+::selection {
+  /* Change highlight background color to black */
+  background: #F5F3F4;
+  /* Change highlight text color to red */
+  color: #1E1E1E;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -110,6 +117,13 @@ header {
 .border-style {
   border: 1px solid #D9D9D9;
   border-radius: 10px;
+}
+
+.border-style:hover {
+  /* border-color: #E14242; */
+ /*  box-shadow: 0px 0px 0px 4px #E14242; */
+ background-color: #00000027;
+  transition: 0.11s ease-in-out;
 }
 
 .border-style a {
