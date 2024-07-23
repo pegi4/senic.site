@@ -29,7 +29,7 @@ function switchLang(lang) {
     .catch((error) => console.error('Error loading translations:', error));
 }
 
-switchLang('en');
+switchLang('sl');
 
 
 
