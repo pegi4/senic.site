@@ -42,6 +42,11 @@
     "reshine-repo-link": "Repo",
     "reshine-site-link": "Pogelj",
     "projects-for-others-title": "Projekti za druge",
+    "banovsek-hisa-title": "Banovšek (spletna stran & trgovina)",
+    "banovsek-hisa-date": "Jul 2024 - Aug 2024",
+    "banovsek-hisa-description": "Za podjetje Banovšek sem izdelal spletno stran, trgovino in pomagal pri boljši prepoznavnosti na socialnih omrežjih.",
+    "banovsek-hisa-skills": "Razumevanje stranke",
+    "banovsek-hisa-site-link": "Spletna stran",
     "frizerska-hisa-title": "Frizerska Hiša Andrejka (spletna stran & trgovina)",
     "frizerska-hisa-date": "Januar 2022 - Mar 2022",
     "frizerska-hisa-description": "Za frizerski salon sem izdelal spletno stran, trgovino in pomagal pri boljši prepoznavnosti podjetja na socialnih omrežjih.",
@@ -57,7 +62,7 @@
     "education-duration": "2019 - 2023",
     "computer-engineering-study": "Trenutno študiram računalništvo in informacijske tehnologije na <a class='link-2' href='https://feri.um.si/' target=\"_blank\">FERI</a> v Mariboru.",
     "other-title": "Drugo",
-    "other-age": "Starost: 18",
+    "other-age": "Starost:",
     "other-nickname": "Vzdevek: Senic",
     "music-link": "Glasba:",
     "other-location": "Lokacija: Pohorje",
@@ -68,6 +73,5 @@
     "social-text": "Biti socialen na internetu?",
     "networking-text": "Mreženje ali zanimivi ljudje:",
     "jostsenic-link": "jostsenic.si",
-    "darkosever-link": "darkosever.si",
     "cv-description": "Lahko pogledaš tudi moj bolj linearni <span style=\"color: #FFBA08;\">življenjepis</span>"
 }

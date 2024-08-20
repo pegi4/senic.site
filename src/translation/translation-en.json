@@ -42,6 +42,11 @@
     "reshine-repo-link": "Repo",
     "reshine-site-link": "Site",
     "projects-for-others-title": "Projects for others",
+    "banovsek-hisa-title": "Banovšek (website & shop)",
+    "banovsek-hisa-date": "Jul 2024 - Aug 2024",
+    "banovsek-hisa-description": "I developed a website, shop, and helped improve social media visibility for the company Banovšek.",
+    "banovsek-hisa-skills": "Customer understanding",
+    "banovsek-hisa-site-link": "Site",
     "frizerska-hisa-title": "Frizerska Hiša Andrejka (website & webstore)",
     "frizerska-hisa-date": "January 2022 - March 2022",
     "frizerska-hisa-description": "I created a website, a store for a hair salon and helped improve the visibility of the company on social networks.",
@@ -57,7 +62,7 @@
     "education-duration": "2019 - 2023",
     "computer-engineering-study": "I am currently studying computer engineering at <a class='link-2' href='https://feri.um.si/' target=\"_blank\">FERI</a> in Maribor.",
     "other-title": "Other",
-    "other-age": "Age: 19",
+    "other-age": "Age:",
     "music-link": "Music:", 
     "other-nickname": "Nickname: Senic",
     "other-location": "Location: Pohorje",
@@ -70,7 +75,6 @@
     "social-text": "Being social on the internet?",
     "networking-text": "Networking aka cool people:",
     "jostsenic-link": "jostsenic.si",
-    "darkosever-link": "darkosever.si",
     "cv-description": "You can look at my more linear <span style=\"color: #FFBA08;\">Curriculum vitae</span>",
     "cv-link": "CV"
 }
