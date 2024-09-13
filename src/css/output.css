@@ -649,6 +649,8 @@ video {
 }
 
 .object-contain {
+  width: 235px;
+  border-radius: 2rem;
   -o-object-fit: contain;
      object-fit: contain;
 }

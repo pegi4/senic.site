@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-    --background: #1E1E1E;
-    --text: #F5F3F4;
+    --background: #F5F3F4;
+    --text: #1E1E1E;
     --hidentext: #ACACAC;
     --header1: #E14242;
     --header2: #1BE6B0;
@@ -13,9 +13,9 @@
 
 ::selection {
   /* Change highlight background color to black */
-  background: #F5F3F4;
+  background: #d66ca1;
   /* Change highlight text color to red */
-  color: #1E1E1E;
+  color: #a71a1a;
 }
 
 * {
@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-  color: var(--header2);
+  /* color: var(--header1); */
 }
 
 a:hover {
@@ -111,7 +111,7 @@ header {
 }
 
 .skills-got {
-  color: var(--purple);
+  /* color: var(--header1); */
 }
 
 .border-style {
@@ -127,7 +127,7 @@ header {
 }
 
 .border-style a {
-  color: var(--link1) !important;
+  color: var(--header1) !important;
   text-decoration: underline !important;
   cursor: pointer;
 }
@@ -137,7 +137,7 @@ header {
 }
 
 .link-2 {
-  color: var(--link2) !important;
+  color: var(--header1) !important;
   text-decoration: underline !important;
   cursor: pointer;
 }
@@ -146,7 +146,7 @@ header {
 }
 
 .f-me a {
-  color: var(--link1) !important;
+  color: var(--header1) !important;
   text-decoration: underline !important;
   cursor: pointer;
 }
@@ -161,14 +161,14 @@ header {
 }
 
 .soc-li a{
-  color: var(--link2) !important;
+  color: var(--header1) !important;
 }
 .soc-li a:hover {
   color: #5691c7 !important;
 }
 
 .cv a {
-  color: var(--link2) !important;
+  color: var(--header1) !important;
   text-decoration: underline !important;
   cursor: pointer;
 }
@@ -182,7 +182,7 @@ header {
 }
 
 footer {
-  background-color: #0B090A;
+  /* background-color: #0B090A; */
   text-align: center;
 }
 
